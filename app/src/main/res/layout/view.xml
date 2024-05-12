@@ -80,7 +80,7 @@
                     android:id="@+id/namedate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Task 1"
+                    android:text="Date"
                     android:textStyle="bold"
                     android:textSize="24sp"
                     android:textColor="@color/black"
