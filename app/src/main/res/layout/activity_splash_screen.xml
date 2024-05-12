@@ -35,13 +35,19 @@
 
     <Button
         android:id="@+id/continue_button"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
+        android:layout_width="80dp"
+        android:layout_height="83dp"
         android:layout_gravity="center"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="126dp"
         android:backgroundTint="@color/green"
-        android:text=">"
+        app:iconTint="@color/white"
+        app:backgroundTint="@color/green"
+        android:elevation="4dp"
+        android:background="@drawable/baseline_arrow_forward_ios_24"
+        android:src="@drawable/baseline_arrow_forward_ios_24"
         android:textSize="39dp" />
+
+
 
 
 </LinearLayout>
