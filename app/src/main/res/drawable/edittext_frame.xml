@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- editText_frame.xml -->
+    <shape
+        android:shape="rectangle">
+
+        <!-- Border Color -->
+        <stroke
+            android:width="2dp"
+            android:color="#CCCCCC" />
+
+        <!-- Background Color -->
+        <solid
+            android:color="#FFFFFF" />
+
+        <!-- Corner Radius -->
+        <corners
+            android:radius="8dp" />
+
+    </shape>
+
+</selector>
