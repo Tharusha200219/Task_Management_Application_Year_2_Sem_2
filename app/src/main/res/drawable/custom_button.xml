@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Button Pressed State -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#FF5722" /> <!-- Change the color to your desired pressed color -->
+            <corners android:radius="8dp" /> <!-- Adjust the corner radius as needed -->
+        </shape>
+    </item>
+    <!-- Button Default State -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF7043" /> <!-- Change the color to your desired default color -->
+            <corners android:radius="8dp" /> <!-- Adjust the corner radius as needed -->
+        </shape>
+    </item>
+</selector>

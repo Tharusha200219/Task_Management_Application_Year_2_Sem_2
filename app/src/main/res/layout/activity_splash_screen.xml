@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <!-- Logo ImageView -->
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitCenter"
+
+        />
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TaskVault"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:fontFamily="@font/denk_one"/>
+
+    <!-- Subtitle TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.3"
+        android:text="Manage Your life"
+        android:layout_marginBottom="39dp"
+        android:textColor="#8A8686"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/black"
+        android:text=">"
+        android:textSize="39dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>
