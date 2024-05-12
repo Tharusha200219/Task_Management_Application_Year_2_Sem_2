@@ -21,7 +21,7 @@
             android:layout_weight="1"
             android:fontFamily="sans-serif"
             android:text="TaskVault"
-            android:textColor="@color/black"
+            android:textColor="@color/ubergreen"
             android:textStyle="bold"
             android:textSize="40sp" />
 
