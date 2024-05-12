@@ -27,37 +27,43 @@
             android:textSize="40sp" />
 
         <!-- Add Button -->
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
+        <Button
             android:id="@+id/add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="1dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:background="@drawable/baseline_add_24"
             android:src="@drawable/baseline_add_24"
             app:iconTint="@color/white"
             app:backgroundTint="@color/green"
-             />
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:elevation="4dp" />
+
+        <!-- Delete All Button -->
+        <Button
             android:id="@+id/deleteAll"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_marginBottom="16dp"
             android:layout_marginEnd="1dp"
-            android:layout_marginStart="9dp"
+            android:layout_marginStart="29dp"
             android:layout_marginTop="16dp"
+            android:background="@drawable/baseline_auto_delete_24"
             android:src="@drawable/baseline_auto_delete_24"
             app:iconTint="@color/white"
-            app:backgroundTint="@color/green"
-            />
+            app:backgroundTint="@color/red"
+            android:elevation="9dp"
+            android:textSize="18sp" />
 
-        <!-- Delete All Button -->
+
+
+
 
     </LinearLayout>
 

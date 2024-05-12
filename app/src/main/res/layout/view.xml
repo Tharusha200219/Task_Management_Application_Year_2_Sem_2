@@ -39,8 +39,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif"
-                    android:text="Task 1"
-                    android:textColor="@color/black"
+                    android:text="Task"
+                    android:textColor="@color/white"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -50,9 +50,10 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:fontFamily="sans-serif"
-                    android:text="Priority - High"
+                    android:text="description"
                     android:textColor="@color/black"
-                    android:textSize="15sp" />
+                    android:textStyle="bold"
+                    android:textSize="19sp" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
