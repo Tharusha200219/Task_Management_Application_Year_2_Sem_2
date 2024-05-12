@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="@color/white"
     tools:context=".MainActivity">
@@ -26,23 +27,37 @@
             android:textSize="40sp" />
 
         <!-- Add Button -->
-        <Button
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/add"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            android:layout_marginEnd="8dp"
-            android:background="@drawable/baseline_add_24"
-            android:backgroundTint="#9C3F3F"
-            android:textColorLink="#1B1111" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/baseline_add_24"
+            app:iconTint="@color/white"
+            app:backgroundTint="@color/green"
+             />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/deleteAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/baseline_auto_delete_24"
+            app:iconTint="@color/white"
+            app:backgroundTint="@color/green"
+            />
 
         <!-- Delete All Button -->
-        <Button
-            android:id="@+id/deleteAll"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
-            android:background="@drawable/baseline_auto_delete_24"
-
-            android:textSize="18sp" />
 
     </LinearLayout>
 
@@ -56,6 +71,7 @@
             android:id="@+id/recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+
             tools:listitem="@layout/view" />
 
     </FrameLayout>

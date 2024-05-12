@@ -10,9 +10,9 @@ interface DAO {
     @Update
     suspend fun updateTask(entity: Entity)
 
-    @Delete
-    suspend fun deleteTask(entity: Entity)
 
+    @Delete
+    suspend fun deleteTask(task: Entity)
     @Query("Delete from to_do")
     suspend fun deleteAll()
 
