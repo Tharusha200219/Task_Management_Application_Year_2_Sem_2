@@ -19,3 +19,10 @@ interface DAO {
     @Query("Select * from to_do")
     suspend fun getTasks():List<CardInfo>
 }
+
+
+
+
+
+
+
