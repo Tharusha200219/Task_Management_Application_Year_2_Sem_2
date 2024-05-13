@@ -3,7 +3,10 @@
     <style name="Base.Theme.TODO_LAB4" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
     </style>
 
     <style name="Theme.TODO_LAB4" parent="Base.Theme.TODO_LAB4" />
+
 </resources>

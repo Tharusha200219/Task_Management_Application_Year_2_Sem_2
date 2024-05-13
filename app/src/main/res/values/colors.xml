@@ -7,6 +7,8 @@
     <color name="light_green">#CCFFCC</color> <!-- Light green color -->
     <color name="light_gray">#CCCCCC</color> <!-- Light gray color -->
 
+    <color name="status_bar_color">#3FC060</color>
+
     <color name="dark">#68000000</color>
     <color name="red">#FF6666</color>
     <color name="black">#FF000000</color>
