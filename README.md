@@ -15,18 +15,6 @@
         </header>
         <section style="background: #fff; border-radius: 5px; padding: 20px; margin: 20px 0;">
             <h2>Features</h2>
-            <div style="display: flex; align-items: center; margin-bottom: 20px;">
-                <img src="https://github.com/Tharusha200219/Task_Management_Application_Year_2_Sem_2/blob/main/app/src/main/res/drawable/a1.png?raw=true" alt="Feature 1" style="width: 60px; height: 60px; margin-right: 20px;">
-                <div style="border-left: 2px solid #ccc; height: 60px; margin: 0 20px;"></div>
-                <img src="https://github.com/Tharusha200219/Task_Management_Application_Year_2_Sem_2/blob/main/app/src/main/res/drawable/a2.png?raw=true" alt="Feature 2" style="width: 60px; height: 60px; margin-right: 20px;">
-                <div style="border-left: 2px solid #ccc; height: 60px; margin: 0 20px;"></div>
-                <img src="https://github.com/Tharusha200219/Task_Management_Application_Year_2_Sem_2/blob/main/app/src/main/res/drawable/a3.png?raw=true" alt="Feature 3" style="width: 60px; height: 60px; margin-right: 20px;">
-                <div style="border-left: 2px solid #ccc; height: 60px; margin: 0 20px;"></div>
-                <img src="https://github.com/Tharusha200219/Task_Management_Application_Year_2_Sem_2/blob/main/app/src/main/res/drawable/a4.png?raw=true" alt="Feature 4" style="width: 60px; height: 60px;">
-            </div>
-        </section>
-        <section style="background: #fff; border-radius: 5px; padding: 20px; margin: 20px 0;">
-            <h2>Features</h2>
             <ul style="margin-bottom: 20px; padding-left: 20px;">
                 <li>Task Creation: Easily create new tasks with details like title, description, due date, priority level, and category/tags.</li>
                 <li>Task Updates: Modify task details at any time to reflect changes in status, priority, or other relevant information.</li>
@@ -34,6 +22,10 @@
                 <li>Task Viewing: User-friendly interface for viewing tasks, organized by priority, due date, or category.</li>
                 <li>User-Friendly Interface: Intuitive and aesthetically pleasing interface for simple task management.</li>
             </ul>
+        </section>
+        <section style="background: #fff; border-radius: 5px; padding: 20px; margin: 20px 0;">
+            <h2>Features</h2>
+            <img src="https://github.com/Tharusha200219/Task_Management_Application_Year_2_Sem_2/blob/main/Desktop%20-%201.png?raw=true">
         </section>
     </div>
 </body>
